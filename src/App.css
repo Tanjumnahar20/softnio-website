@@ -1,0 +1,55 @@
+
+
+ .cover{
+  background: linear-gradient(123.4deg, #BD1F17 40.8%, #A61D13 76.4%, #8E1B0F 120.69%);
+
+   }
+  .btn{
+  background: #FEBF00;
+
+}
+
+.text {
+  font-family: Raleway;
+font-size: 15px;
+font-weight: 500;
+line-height: 17.61px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+@media (min-width: 1920px) {
+  .nav {
+    padding: 32px 300px;
+    gap: 0px;
+    justify-content: space-between;
+    opacity: 1; 
+  }
+}
+@media (min-width: 1441px) {
+  .img {
+    width: 751.5px;
+    height: 649px;
+    top: 130px;
+    left: 922px;
+    gap: 0px;
+    opacity: 0px;
+    
+  }
+}
+/* Custom gradient text class */
+.gradient-text {
+  background: linear-gradient(90deg, rgba(189, 31, 23, 0) 32.88%, rgba(189, 31, 23, 0.7) 100%);
+}
+/* .img{
+  width: 700px;
+height: 649px;
+top: 130px;
+left: 1622px;
+gap: 0px;
+opacity: 0px;
+angle: 180 deg;
+
+} */
+
