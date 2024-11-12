@@ -41,7 +41,7 @@ const Navbar = () => {
     </ul>
   </div>
   <div className="hidden lg:block  navbar-end  ">
-    <a className="btn" >Book a table</a>
+    <a className="btn-class" >Book a table</a>
   </div>
 </div>
     );

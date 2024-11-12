@@ -3,8 +3,8 @@ import img1 from './../../assets/images/testImg1.jpeg';
 import vector from './../../assets/images/vector.png';
 const Cover = () => {
     return (
-        <section className="bg-red-500 text-white py-24">
-            <div className="container mx-auto px-16">
+        <section className="bg-red-500 text-white lg:py-24">
+            <div className="container mx-auto lg:px-16">
                 <div className="flex flex-col lg:flex-row items-center">
                     <div className='lg:w-1/2 lg:pl-20 relative'>
                         <div className="lg:absolute lg:top-[-120px] lg:w-[600px] lg:z-10">
