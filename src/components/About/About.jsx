@@ -103,20 +103,12 @@ const About = () => {
               </div>
             )}
           </div>
-          {/* <div className="absolute -inset-9   -right-[50px] transform -bottom-[680px]  rotate-[30deg] lg:rotate-[180deg] overflow-hidden  ">
+     
+      <div className="hidden sm:block  lg:absolute lg:right-0 lg:-bottom-[680px] lg:transform translate-x-1/4 lg:translate-x-28 rotate-[30deg] lg:rotate-[300deg] ">
   <img
     src={img1}
     alt="Decorative"
-    className="w-40 h-40  object-cover"
-    style={{  clipPath: 'inset(0 34.5% 35% 10%)' }} 
-
-  />
-</div> */}
-      <div className="absolute right-0 -bottom-[680px] transform translate-x-1/4 lg:translate-x-28 rotate-[30deg] lg:rotate-[300deg] ">
-  <img
-    src={img1}
-    alt="Decorative"
-    className="w-40 h-40 object-cover "
+    className="w-40 h-40 object-cover  "
     style={{
       
       maxWidth: '100%', 

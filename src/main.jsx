@@ -9,9 +9,9 @@ import router from './components/Router/Router.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-   <div >
-   <RouterProvider router={router}>
+
+   <RouterProvider router={router} future={{ v7_startTransition: true }}>
    </RouterProvider>
-   </div>
+  
   </StrictMode>,
 )
