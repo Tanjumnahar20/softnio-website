@@ -20,7 +20,7 @@ const Testimonial = () => {
                         <div className="w-2 h-2 lg:w-3 lg:h-3" style={{ background: 'rgba(189, 31, 23, 1)' }}></div>
                         <p className="text-[14px] lg:text-[16px] font-sans" style={{ color: 'rgba(189, 31, 23, 1)' }}>Crispy, Every Bite Taste</p>
                     </div>
-                    <h2 className="text-4xl md:text-5xl 2xl:text-6xl font-bold text-gray-900">
+                    <h2 className="text-42xl md:text-3xl 2xl:text-6xl  font-bebas text-gray-900">
                         WHAT SOME OF MY CUSTOMERS SAY
                     </h2>
                 </div>
