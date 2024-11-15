@@ -6,3 +6,26 @@
 body {
     overflow-x: hidden;
   }
+
+.home-content {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+  @media screen and (min-width: 300px) and (max-width: 768px) {
+
+  .home-container {
+    max-width: 100% !important;
+    overflow-x: hidden;
+  }
+
+  .booking-form-container {
+    height: 490px;
+    max-width: 100%;
+    margin-top: 50px;
+  }
+
+  .tomato-container{
+    display: none;
+  }
+}

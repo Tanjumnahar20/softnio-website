@@ -4,6 +4,7 @@
   background: linear-gradient(123.4deg, #BD1F17 40.8%, #A61D13 76.4%, #8E1B0F 120.69%);
 
    }
+  
   .btn-class{
   background: #FEBF00;
   color: black;
@@ -15,6 +16,7 @@
 
 .text {
   font-family: Raleway;
+  color: white;
 font-size: 15px;
 font-weight: 500;
 line-height: 17.61px;
@@ -94,14 +96,20 @@ line-height: 22px;
 color: white;
 }
 
-.background-image-form {
-  background-image: url('./assets/images/testImg4.jpeg');
-  object-fit: cover;
-  /* background-repeat: no-repeat; */
-  /* background-position: center; */
-  width: 100%;
-  height: 100%;
-  object-position: top;
+@media screen and (min-width: 300px) and (max-width: 768px) {
+
+  .home-container {
+    max-width: 100% !important;
+    overflow-x: hidden;
+  }
+
+  .booking-form-container {
+    max-width: 90%;
+  }
+
+  .tomato-container{
+    display: none;
+  }
 }
 
 
